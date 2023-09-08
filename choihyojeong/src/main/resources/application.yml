@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    url:
+    username:
+    password:
+jpa:
+  database : mysql
+  database-platform : org.hibernate.dialect.MySQL8Dialect
+  hibernate:
+    show_sql: true
+    format_sql: true
+    use_sql_comments: true
+
+naver :
+  client:
+    iD: ""
+    secret: ""
+javax:
+  persistence:
+    jdbc:
+      url: jdbc:mysql://localhost:3306/raw_news?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
